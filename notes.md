@@ -123,3 +123,42 @@ For example;
 + `<mark></mark>` highlights the texts with yellow color that enclosed by this tags.
 
 + `<sub></sub>` defines subscripted text and `<sup></sup>` defines superscripted text.
+
+## hyperlinks
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Lorem ipsum,<a href="https://google.com" target="_blank" title="Go to google">dolor</a> sit amet </h1>
+    
+</body>
+</html>
+
+```
+
+### target attributes
+
++ _self : open link in a same tab
+
++ _blank : open link in new tab
+
++ _top : open link in the full body of the window
+
++ _parent : open link in the parent frame
+
+### title attirbute
+
++ title of the hyperlink
+
+## summary
+
++ The `<a>` tag in HTML is used to create hyperlinks.
++ The href attribute is mandatory because it holds the URL of the document or web page that will open.
++ The target attribute specifies where the document or web page will open.
++ Use '_blank' as the value of the target attribute to open the document in a new tab/window.
++ The title holds the extra information that will appear when hovered over the hyperlink.
++ Images and buttons can also work as hyperlinks.
