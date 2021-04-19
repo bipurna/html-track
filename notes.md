@@ -20,7 +20,7 @@
 
 ### minimalist webpage tag
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
