@@ -109,3 +109,17 @@ For example;
 ```
 
 + The `<h1>` has the largest size while the `<h6>` has the smallest.
+
+## Text Formatting
+
++ enclosed with `<b></b>` will be bold and with `<strong></strong>` as well bold with extra meaning.
+
++ enclosed with `<i></i>` will be italisized and with `<em></em>` will emphasized.
+
++ `<small></small>` made, text enclosed by, smaller than other in appearance.
+
++ `<del></del>` makes strikethrough line.
+
++ `<mark></mark>` highlights the texts with yellow color that enclosed by this tags.
+
++ `<sub></sub>` defines subscripted text and `<sup></sup>` defines superscripted text.
