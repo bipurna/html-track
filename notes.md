@@ -31,3 +31,6 @@
 </html>
 ```
 
+### HTML attributes
+
+--- Most of the HTML tags have additional properties or characteristics that are defined by attributes.
