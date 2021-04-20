@@ -162,3 +162,19 @@ For example;
 + Use '_blank' as the value of the target attribute to open the document in a new tab/window.
 + The title holds the extra information that will appear when hovered over the hyperlink.
 + Images and buttons can also work as hyperlinks.
+
+## Images
+
++ `<img>` tag does not have a corresponding closing.
+
++ The src attribute is mandatory while it holds the URL of the image including name and extension.
+
+```html
+<body>
+    <img src = "me.jpg" width="" height="" alt="">
+</body>
+```
+
++ it has alt attribute that displays while faild to load image.
+
++ image with link: must wrap with a tag.
