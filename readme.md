@@ -317,14 +317,59 @@ For example;
 
 + For Example;
 
-    ```html
+```html
     <body>
         <form action="/login.php" method="POST">
-        <label>Enter your name</label>
-        <input type="text" required>
-        <input type="submit" value="Submit">
+            <label>Enter your name</label>
+            <input type="text" required>
+            <input type="submit" value="Submit">
         </form>
     </body>
 
 ```
 
+## Media
+
++ ### video
+  
+  + `<video> tag is used to display videos in the browser.
+
+  + `controls` attribute provides the basic controlling options.
+
+    +`autoplay` attribute play the video as page loads.
+
+    + `<source src ="path-to-file">` tag define the source of the video
+
+    + `type="video/mp4"` attribute define the type of video.
++ For Example;
+
+```html
+    <body>
+        <video controls autoplay>
+            <source src="videoname.mp4" type = "video/mp4">
+        </video>
+    </body>
+
+```
+
+
++ ### audio
+
+  + define audio on webpage
+
+  + `source` tag defines type and location
+
+  + `controls` attribute provides basic audio controls.
+  
+  + `autoplay` automatically play the audio once page loads.
+
++ For Example;
+
+```html
+    <body>
+        <audio controls autoplay>
+            <source src="videoname.mp4" type = "audio/mpeg">
+        </audio>
+    </body>
+
+```
