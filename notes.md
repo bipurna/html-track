@@ -178,3 +178,55 @@ For example;
 + it has alt attribute that displays while faild to load image.
 
 + image with link: must wrap with a tag.
+
+## Tables
+
++ Tables are considered one of the best ways to represent data.
+
+    ```html
+    <table>
+    </table>
+    ```
+
++ HTML provides `<th>` and `<td>` tags to create a table head and column respectively.
+
+    ```html
+    <table>
+        <tr>
+        <th></th>
+        <th></th>
+        </tr>
+    </table>
+    ```
+
++ HTML provides `<tr>` and `<td>` tags to create a row and column respectively.
+
+    ```html
+    <table>
+        <tr>
+        <td></td>
+        <td></td>
+        </tr>
+    </table>
+    ```
+
++ colspan and rowspan attributes are increasing the span of the cell according to the value specified.
+
++ `<thead>` and `<tbody>` tags are used to group the heads and body part of the tables.
+
+```html
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    ```
