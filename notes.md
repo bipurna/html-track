@@ -229,4 +229,58 @@ For example;
             </tr>
         </tbody>
     </table>
-    ```
+```
+
+## Lists 
+
++ represents related data
+  + ordered
+  + unordered
+  + discription
+
+### ordered list
+
+```html
+<ol>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+</ol>
+```
+
++ above tags display items with numberings. whis we can change with `type` attributes. predefined alphabets and roman numbers Lowercase and uppercase.
+
+```html
+<ol type="a">
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+</ol>
+```
+
++ We can control the starting point by providing values for `start` attributes.
+
+### unordered list
+
++ its an unordered bullet list.
+
+```html
+<ul>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+</ul>
+```
+
++ `type` attributes in unordered list can modify by providing predefined values; disc, circle,square,and none.
+
+### discription list
+
++ each option with the description list
+
+```html
+<dl>
+    <dt>description list 1</dt>
+    <dl>description</dl>
+</dl>
+```
