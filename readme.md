@@ -1,4 +1,4 @@
-# HTML, CSS, and JavaScript
+# HTML - HyperText MarkUp Language
 
 ## Websites Summarry
 
@@ -35,9 +35,9 @@
 
 + Most of the HTML tags have additional properties or characteristics that are defined by attributes. For Example;
 
- ```html 
- <img src="" alt="" />
- ```
+```html
+<img src="" alt="" />
+```
 
 ### Closing and opening tags
 
@@ -45,7 +45,7 @@
 
 ### <! DOCTYPE html>
 
- This is the declaration that informs the browser that it is an HTML document.
+This is the declaration that informs the browser that it is an HTML document.
 
 ## Uderstanding HTML elements, tags, and attributes summary
 
@@ -67,7 +67,7 @@
 
 + A paragraph in HTML is added using the ```<p>``` tag. For headings, we have multiple tags. These include `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`, each of them having a different size.
 
-  + ```<p> Hello World </p>```
++ ```<p> Hello World </p>```
 
 ### Line break
 
@@ -84,7 +84,7 @@
     <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. Saepe<br> dolores alias quasi qui natus. Fuga,<br> ratione ab sint debitis beatae,<br> repellendus optio dolores odit dolorum<br> perferendis tempore, fugit<br> reprehenderit quos!</p>
 </body>
 </html>
-``` 
+```
 
 ### headings
 
@@ -100,7 +100,7 @@ For example;
 <body>
     <h1>Lorem ipsum, dolor sit amet </h1>
     <h2>consectetur adipisicing elit. </h2>
-    <h3>Saepe dolores alias quasi qui natus.</h3> 
+    <h3>Saepe dolores alias quasi qui natus.</h3>
     <h4>Fuga, ratione ab sint debitis beatae,</h4> <h5>repellendus optio dolores odit dolorum </h5>
     <h6>perferendis tempore, fugit reprehenderit quos!</h6>
 </body>
@@ -134,7 +134,7 @@ For example;
 </head>
 <body>
     <h1>Lorem ipsum,<a href="https://google.com" target="_blank" title="Go to google">dolor</a> sit amet </h1>
-    
+
 </body>
 </html>
 
@@ -231,12 +231,12 @@ For example;
     </table>
 ```
 
-## Lists 
+## Lists
 
 + represents related data
-  + ordered
-  + unordered
-  + discription
++ ordered
++ unordered
++ discription
 
 ### ordered list
 
@@ -301,19 +301,19 @@ For example;
 
 + `input` modifies providing `type` attributes
 
-  + predefined values are `text`,`submit`,`radio`,`checkbox`,`date`,`email`,`file`,`color`,`number`,`month`, and `time` etc.
++ predefined values are `text`,`submit`,`radio`,`checkbox`,`date`,`email`,`file`,`color`,`number`,`month`, and `time` etc.
 
-  + The `<label>` tag has the information regarding the input.
++ The `<label>` tag has the information regarding the input.
 
-  + `value` attributes appear in the button text.
-  
-  + `checked` attrobute used for checkbox and radio buttons.
++ `value` attributes appear in the button text.
 
-  + `disabled` disabled for the users or for certain works.
++ `checked` attrobute used for checkbox and radio buttons.
 
-  + `required` attribute is used for mandatory field. 
++ `disabled` disabled for the users or for certain works.
 
-  + `placeholder` attribute is used as a hint text or guide text.
++ `required` attribute is used for mandatory field.
+
++ `placeholder` attribute is used as a hint text or guide text.
 
 + For Example;
 
@@ -331,10 +331,10 @@ For example;
 ## Media
 
 + ### video
-  
-  + `<video>` tag is used to display videos in the browser.
 
-  + `controls` attribute provides the basic controlling options.
++ `<video>` tag is used to display videos in the browser.
+
++ `controls` attribute provides the basic controlling options.
 
     + `autoplay` attribute play the video as page loads.
 
@@ -354,13 +354,13 @@ For example;
 
 + ### audio
 
-  + define audio on webpage
++ define audio on webpage
 
-  + `source` tag defines type and location
++ `source` tag defines type and location
 
-  + `controls` attribute provides basic audio controls.
-  
-  + `autoplay` automatically play the audio once page loads.
++ `controls` attribute provides basic audio controls.
+
++ `autoplay` automatically play the audio once page loads.
 
 + For Example;
 
@@ -372,3 +372,89 @@ For example;
     </body>
 
 ```
+
+## CSS - Cascading Style Sheets
+
++ css can be used - Externally, Internally, and inline.
+
++ css finds html element from its selector and applied the value accordingly.
+
+----------------
+```css
+selector {
+  key: value;
+}
+```
+
++ Internally  used css example
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <style>
+      h1 {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Lorem ipsum,<a
+        href="https://google.com"
+        target="_blank"
+        title="Go to google"
+        >dolor</a
+      >
+      sit amet
+    </h1>
+  </body>
+</html>
+```
+
++ Externally  used css example
+  + must written separate file with `.css` extension.
+  + must reference using link with attribute `href = name.css` html head section
+
+  ```html
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title></title>
+            <link rel="stylesheet" href="name.css">
+        </head>
+        <body>
+            <h1>
+            Lorem ipsum,<a
+                href="https://google.com"
+                target="_blank"
+                title="Go to google"
+                >dolor</a
+            >
+            sit amet
+            </h1>
+        </body>
+    </html>
+
+    ```
+
++ Inline Css
+
+  + html tags have inline style attribute and directly apply style within tags
+  `<p style="color:black;"> inline style attribute.</p>`
+
++ priority Order ;
+  + inline css prioritize than others and among them priority comes internal then external.
+
++ css selector can be `tag`, `id`, `class` .
+
++ id can be select using `#idname` sign in css and id name must be unique to other elements
+
++ class can be select using `.classname` sign in css and same class name can be applied in multiple elements.
+
++ grouping selector with commas.
+
++ universal selector `*` 
+
