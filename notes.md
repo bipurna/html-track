@@ -193,8 +193,8 @@ For example;
     ```html
     <table>
         <tr>
-        <th></th>
-        <th></th>
+            <th></th>
+            <th></th>
         </tr>
     </table>
     ```
@@ -204,8 +204,8 @@ For example;
     ```html
     <table>
         <tr>
-        <td></td>
-        <td></td>
+            <td></td>
+            <td></td>
         </tr>
     </table>
     ```
@@ -284,3 +284,4 @@ For example;
     <dl>description</dl>
 </dl>
 ```
+
