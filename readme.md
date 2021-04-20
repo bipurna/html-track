@@ -332,11 +332,11 @@ For example;
 
 + ### video
   
-  + `<video> tag is used to display videos in the browser.
+  + `<video>` tag is used to display videos in the browser.
 
   + `controls` attribute provides the basic controlling options.
 
-    +`autoplay` attribute play the video as page loads.
+    + `autoplay` attribute play the video as page loads.
 
     + `<source src ="path-to-file">` tag define the source of the video
 
@@ -351,7 +351,6 @@ For example;
     </body>
 
 ```
-
 
 + ### audio
 
@@ -368,7 +367,7 @@ For example;
 ```html
     <body>
         <audio controls autoplay>
-            <source src="videoname.mp4" type = "audio/mpeg">
+            <source src="audioname.mp4" type = "audio/mpeg">
         </audio>
     </body>
 
