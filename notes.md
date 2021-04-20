@@ -285,3 +285,45 @@ For example;
 </dl>
 ```
 
+## Forms
+
++ Use for user interaction
+
+### `<form>` tag
+
++ form is used to wrapped its children `<input>`
+
++ `action` attribute invoke the url when form will be submitted.
+
++ `method` attribute has two predefined method `POST` and `GET`. It will defined the type of form method.
+
++ `novalidate` attribute ignore the validation.
+
++ `input` modifies providing `type` attributes
+
+  + predefined values are `text`,`submit`,`radio`,`checkbox`,`date`,`email`,`file`,`color`,`number`,`month`, and `time` etc.
+
+  + The `<label>` tag has the information regarding the input.
+
+  + `value` attributes appear in the button text.
+  
+  + `checked` attrobute used for checkbox and radio buttons.
+
+  + `disabled` disabled for the users or for certain works.
+
+  + `required` attribute is used for mandatory field. 
+
+  + `placeholder` attribute is used as a hint text or guide text.
+
++ For Example;
+
+    ```html
+    <body>
+        <form action="/login.php" method="POST">
+        <label>Enter your name</label>
+        <input type="text" required>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+
+```
