@@ -456,5 +456,21 @@ selector {
 
 + grouping selector with commas.
 
-+ universal selector `*` 
++ universal selector `*`.
 
++ color property can have 3 types of values colorname, HEX value, and RGB value.
+
++ text-decoration property could have following values : `underline`, `line-through`, `overline`, and `none`.
+
++ text-align property could have value of horizontal alignment of `left`,`right`,and `center`.
+
++ font property could have font-family,font-size,style and more.
+
+  + `font-family` property can have value with multiple font name while browser doesn't support prior font.
+
+  + `font-size` can be any of size with the value together in px, em, rem, or %.
+
+  + `font-weight` property set different font weight for the elements.
+
+  + `font-style:italic` to make italic.
+  
