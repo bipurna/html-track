@@ -473,4 +473,37 @@ selector {
   + `font-weight` property set different font weight for the elements.
 
   + `font-style:italic` to make italic.
-  
+
+### CSS borders, margin, and padding
+
++ CSS Box Model
+
++ By default, only content is visible while the border is not and the margin and padding.
+
+  + The content can be text, image, etc.
+
+  + The content is surrounded by the   border.
+
+  + The area between the content and   the border is padding.
+
+  + The area outside the border is   the margin.
+
+  + The border can be visible, depends   on the CSS. But margin and padding are invisible.
+
++ The content can be text, image, etc.
+
++ The content is surrounded by the border.
+
++ The area between the content and the border is padding.
+
++ The area outside the border is the margin.
+
++ The border can be visible, depends on the CSS. But margin and padding are invisible.
+
++ The CSS box model consists of the border, margin, and padding.
+
++ The border can be set using the "border" shorthand property or properties like "border-width", "border-style", "border-color".
+
++ The "margin" property is a shorthand property used to set margin in various ways. To set margin for particular directions, use "margin-top", "margin-bottom", "margin-left", or "margin-right".
+
++ The "padding" property is a shorthand property used to set padding in various ways. To set padding for particular directions, use "padding-top", "padding-bottom", "padding-left", or "padding-right".
