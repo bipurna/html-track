@@ -507,3 +507,12 @@ selector {
 + The "margin" property is a shorthand property used to set margin in various ways. To set margin for particular directions, use "margin-top", "margin-bottom", "margin-left", or "margin-right".
 
 + The "padding" property is a shorthand property used to set padding in various ways. To set padding for particular directions, use "padding-top", "padding-bottom", "padding-left", or "padding-right".
+
+### CSS backgrounds
+
++ change the background color or add an image to the background
+
++ use the "background-repeat" property and set "no-repeat" as its value
+
++ use the "background-size" to cover
+
