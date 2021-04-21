@@ -516,3 +516,4 @@ selector {
 
 + use the "background-size" to cover
 
+(Note: footnote from `Web Development for beginner: learn Html/css/javascript step by step.`)
